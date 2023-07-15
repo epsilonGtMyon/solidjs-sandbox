@@ -8,10 +8,17 @@ function MainLayout() {
     <div>
       <div>
         <header>
-          <A href="/">home</A> | 
-          <A href="/basic/signal1">signal1</A> | 
-          <A href="/basic/signal2">signal2</A> | 
-          <A href="/basic/memo1">memo1</A> |
+          <A href="/">home</A>
+          <div>
+            <A href="/basic/signal1">signal1</A> |
+            <A href="/basic/signal2">signal2</A> |
+            <A href="/basic/effect1">effect1</A> |
+            <A href="/basic/memo1">memo1</A> |
+          </div>
+          <div>
+            <A href="/control-flow/for1">for1</A> |
+            <A href="/control-flow/show1">show1</A> |
+          </div>
         </header>
       </div>
 

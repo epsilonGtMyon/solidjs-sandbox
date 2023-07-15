@@ -12,6 +12,10 @@ function Memo1() {
   return (
     <div>
       <h1>Memo1</h1>
+      <div>
+        createMemoではなく純粋な関数でも同様の事はできるらしい
+        ただし、レンダリングの都度呼ばれたりするので キャッシュが利く点ではよい
+      </div>
 
       <div>
         <label>
