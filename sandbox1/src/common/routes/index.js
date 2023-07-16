@@ -34,6 +34,10 @@ const routes = [
       {
         path: "/control-flow/show1",
         component: lazy(() => import("../../pages/controlflow/show1/FlowShow1.jsx")),
+      },
+      {
+        path: "/control-flow/switch1",
+        component: lazy(() => import("../../pages/controlflow/switch1/FlowSwitch1.jsx")),
       }
     ],
   },

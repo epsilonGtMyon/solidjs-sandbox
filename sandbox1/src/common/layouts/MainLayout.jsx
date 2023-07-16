@@ -18,6 +18,7 @@ function MainLayout() {
           <div>
             <A href="/control-flow/for1">for1</A> |
             <A href="/control-flow/show1">show1</A> |
+            <A href="/control-flow/switch1">switch1</A> |
           </div>
         </header>
       </div>

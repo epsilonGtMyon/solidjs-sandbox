@@ -1,0 +1,28 @@
+.flowSwitch1-tab {
+  box-sizing: border-box;
+}
+
+.flowSwitch1-tabHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.flowSwitch1-tabHeaderItem {
+  padding: 0.5em 1em;
+  border: 1px solid #dbdbdb;
+  cursor:pointer;
+}
+.flowSwitch1-tabHeaderItem:hover {
+  color:red;
+}
+
+
+.flowSwitch1-tabHeaderItem + .flowSwitch1-tabHeaderItem {
+  margin-left: -1px
+}
+
+
+.flowSwitch1-tabContent {
+  border: 1px solid #dbdbdb;
+  padding: 0.5em;
+}
