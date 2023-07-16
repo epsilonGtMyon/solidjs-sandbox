@@ -1,0 +1,23 @@
+.portal1-modal {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portal1-modalBackground {
+  background-color: rgb(0, 0, 0, 0.2);
+
+  position: absolute;
+  inset: 0;
+}
+
+.portal1-modalContent {
+  position: relative;
+  padding: 0.5em;
+  background-color: white;
+
+  box-shadow: 0.5px 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
+}
